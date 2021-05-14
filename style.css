@@ -1,27 +1,25 @@
-
-*{
+@charset "UTF-8";
+body {
+    background-color: rgb(195, 170, 218);
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 16px;
-}
-body{
-    background-image: linear-gradient(to right rgb(141, 141, 235);
 }
 main{
-    width: 560px;
+    background-color: rgb(207, 190, 223);
+    width: 800px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
 h1 {
-    font-size: 2em;
+    font-size: 3em;
     color: rgb(58, 0, 112);
 }
 h2 {
-    font-size: 1,5em;
+    font-size: 2em;
     color: rgb(58, 0, 112);
 }
-img.lado {
-    float: right;
+p {
+    text-align: justify;
 }
 a {
     text-decoration: none;
