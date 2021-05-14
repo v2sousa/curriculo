@@ -19,9 +19,10 @@ h2 {
     color: rgb(58, 0, 112);
 }
 p {
-    text-align: justify;
+    text-align: left;
 }
-a {
+
+a. {
     text-decoration: none;
     font-weight: bold;
     color: rgb(58, 0, 112);
@@ -29,4 +30,10 @@ a {
 a:hover {
     text-decoration: underline;
     color: rgb(26, 26, 255);
+}
+#rodape{
+    background-color: rgb(235, 211, 180);
+    text-align: center;
+    font-size: 1em;
+    color: rgb(139, 68, 68);
 }
