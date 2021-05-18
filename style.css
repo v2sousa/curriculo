@@ -32,8 +32,9 @@ a:hover {
     color: rgb(26, 26, 255);
 }
 #rodape{
-    background-color: rgb(235, 211, 180);
+    background-color: rgb(167, 149, 184);
     text-align: center;
     font-size: 1em;
     color: rgb(139, 68, 68);
+    margin: 5px;
 }
