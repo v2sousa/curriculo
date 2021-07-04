@@ -1,11 +1,11 @@
 @charset "UTF-8";
 body {
-    background-color: rgb(195, 170, 218);
+    background-color: rgb(165, 152, 223);
     font-family: Arial, Helvetica, sans-serif;
 }
 main{
-    background-color: rgb(207, 190, 223);
-    width: 700px;
+    background-color: rgb(205, 197, 235);
+    width: 1000px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
