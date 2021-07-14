@@ -1,25 +1,39 @@
 @charset "UTF-8";
 body {
-    background-color: rgb(165, 152, 223);
+    background-color: rgba(81, 91, 233, 0.877);
     font-family: Arial, Helvetica, sans-serif;
 }
 main{
-    background-color: rgb(205, 197, 235);
-    width: 1000px;
+    background-color: rgb( 176, 203, 240);
+    width: 800px;
     margin: auto;
     padding: 10px;
     box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
 }
 h1 {
+    text-align: center;
     font-size: 3em;
     color: rgb(58, 0, 112);
+    float: none;
 }
 h2 {
     font-size: 2em;
     color: rgb(58, 0, 112);
 }
-p {
-    text-align: left;
+p.sobre {
+    float:left;
+    text-align: justify;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 20px;
+    box-shadow: 3px 3px 5px black;
+}
+p.foto {
+    float: right;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
 }
 
 a. {
@@ -32,9 +46,9 @@ a:hover {
     color: rgb(26, 26, 255);
 }
 #rodape{
-    background-color: rgb(167, 149, 184);
+    background-color: rgb(222, 209, 235);
     text-align: center;
-    font-size: 1em;
-    color: rgb(139, 68, 68);
-    margin: 5px;
+    font-size: 0,5em;
+    color: rgb(36, 32, 32);
+    margin: 10px;
 }
