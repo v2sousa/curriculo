@@ -1,32 +1,29 @@
 @charset "UTF-8";
 body {
-    background-color: rgba(81, 91, 233, 0.877);
+    background-color: rgba(218, 219, 241, 0.486);
     font-family: Arial, Helvetica, sans-serif;
 }
 main{
-    background-color: rgb( 176, 203, 240);
+    background-image: linear-gradient(to right rgb(38, 38, 224) rgb(183, 204, 233));
     width: 800px;
     margin: auto;
-    padding: 10px;
-    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.473);
+    padding: 50px;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.473);
 }
 h1 {
     text-align: center;
     font-size: 3em;
-    color: rgb(58, 0, 112);
+    color: rgba(27, 10, 43, 0.705);
     float: none;
 }
 h2 {
     font-size: 2em;
-    color: rgb(58, 0, 112);
+    color: rgba(27, 10, 43, 0.705);
 }
 p.sobre {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     float:left;
-    text-align: justify;
-    margin-left: 20px;
-    margin-top: 20px;
-    border-radius: 20px;
-    box-shadow: 3px 3px 5px black;
+    font-weight: bold;
 }
 p.foto {
     float: right;
