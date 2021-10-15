@@ -33,14 +33,18 @@ p.foto {
     box-shadow: 3px 3px 5px black;
 }
 
-a. {
-    text-decoration: none;
-    font-weight: bold;
-    color: rgb(58, 0, 112);
-}
+/*
 a:hover {
     text-decoration: underline;
     color: rgb(26, 26, 255);
+}
+*/
+div.principal {
+    float: right;
+    width: 300px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
 }
 #rodape{
     background-color: rgb(222, 209, 235);
