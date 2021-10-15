@@ -4,11 +4,23 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 main{
-    background-image: linear-gradient(to right rgb(38, 38, 224) rgb(183, 204, 233));
+    background-image: linear-gradient(to right rgba(38, 38, 224, 0.521) rgba(50, 106, 190, 0.651));
     width: 800px;
     margin: auto;
     padding: 50px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.473);
+}
+div.principal {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
+}
+div.servico {
+    width: 200px;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 5px black;
 }
 h1 {
     text-align: center;
@@ -39,15 +51,9 @@ a:hover {
     color: rgb(26, 26, 255);
 }
 */
-div.principal {
-    float: right;
-    width: 300px;
-    margin: 10px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px black;
-}
+
 #rodape{
-    background-color: rgb(222, 209, 235);
+    background-color: rgb(230, 213, 199);
     text-align: center;
     font-size: 0,5em;
     color: rgb(36, 32, 32);
