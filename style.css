@@ -10,14 +10,10 @@ main{
     padding: 50px;
     box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.473);
 }
-div.principal {
-    width: 200px;
+#div.atalhos {
     margin: 10px;
-    border-radius: 10px;
-    box-shadow: 3px 3px 5px black;
-}
-div.servico {
-    width: 200px;
+    padding: 10px;
+    width: 100px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px black;
@@ -44,14 +40,10 @@ p.foto {
     border-radius: 10px;
     box-shadow: 3px 3px 5px black;
 }
-
-/*
 a:hover {
     text-decoration: underline;
     color: rgb(26, 26, 255);
 }
-*/
-
 #rodape{
     background-color: rgb(230, 213, 199);
     text-align: center;
