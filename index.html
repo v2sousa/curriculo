@@ -5,10 +5,33 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> Pontual Tech </title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
     
 </head>
 <body>
+    <nav>
+        <div class="toggle">
+            <i class=" fa fa-bars menu" aria-hidden="true"></i>
+        </div>
+
+        <ul>
+            <li> <a href="#">Home</a></li>
+            <li> <a href="#">Sobre</a></li>
+            <li> <a href="#">Serviços</a></li>
+            <li> <a href="#">Portifólio</a></li>
+            <li> <a href="#">Contato</a></li>
+        </ul>
+    </nav>
+    <script src="https://code.jquery.com/jquery-3.2.1.js"> </script>
+    <script type="text/javascript"> 
+        $(document).ready(function() {
+            $('.menu').click(function() {
+                $('ul').toggleClass('active');
+        })
+        })
+    </script>
+        
     <main class="index">
         <menu class="index">
             <button type="button"><a href="servicos.html" rel="" > Serviços </a></button>
