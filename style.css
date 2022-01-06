@@ -1,10 +1,63 @@
 @charset "UTF-8";
-body {
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,600');
+/*body 
+{
     margin: 0;
     padding: 0;
-    font-family: sans-serif;   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url(bg.jpg);
+    background-size: cover;
+    font-family: 'Poppins';
+}*/ 
+.calendario
+{
+    width: 300px;
+    height: 200px;
+    padding: auto;
+    float: right;
 }
-nav {
+.calendario .h2 .dia,
+.calendario .h3 .mes
+{
+    margin: 0;
+    padding: 0;
+    color: #fff1;
+    
+}
+.calendario .data
+{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 1fr));
+    grid-gap: 10px;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    height: 25px;
+    color: #262626;    
+}
+.calendario .data .dia
+{
+    font-weight: 700;
+}
+.calendario .data .dia:first-child,
+.calendario .data .numero:nth-child(7n + 1)
+{
+    color: #ff685d;
+    font-weight: 700;
+}
+.calendario .data div.numero.active
+{
+background: #009688;
+color: #fff;
+font-weight: 700;
+cursor: pointer;
+
+}
+.menu {
     width: 100%;
     background: #00316b;
 }
@@ -51,20 +104,7 @@ ul li a {
 .active {
     display: block;
 }
-/*main{
-    background-image: linear-gradient(to right rgba(38, 38, 224, 0.521) rgba(50, 106, 190, 0.651));
-    max-width: 800px;
-    height: 900px;
-    margin: auto;
-    padding: 50px;
-    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.473);
-}*/
-menu {
-    border-radius: 10px;
-    box-shadow: 3px 3px 6px black;
-    text-align: right;
-    background-color: rgba(60, 60, 230, 0.233);
-}
+
 h1 {
     text-align: center;
     font-size: 4em;
@@ -75,19 +115,20 @@ h2 {
     font-size: 2em;
     color: rgba(27, 10, 43, 0.705);
 }
-p.sobre {
-    font-family:Verdana, Geneva, Tahoma, sans-serif;
-    float:left;
-    font-weight: bold;
+.sobre
+{
+    margin-top: 20px;
+    padding: 10px;
+    max-width: 100%;
 }
-p.foto {
+.p .foto {
     float: right;
     width: 300px;
     margin: 10px;
     border-radius: 10px;
     box-shadow: 3px 3px 5px black;
 }
-#operacionais {
+.servicos .operacionais {
     font-family: Arial, Helvetica, sans-serif;
     color: #092727;
     text-align: left;
@@ -98,7 +139,7 @@ p.foto {
     margin-top: 10px;
     float:left;
 }
-#formatacao {
+.servicos .formatacao {
     font-family: Arial, Helvetica, sans-serif;
     color: #092727;
     text-align: left;
@@ -109,7 +150,7 @@ p.foto {
     margin-top: 10px;
     float:left;
 }
-#memoria {
+.servicos .memoria {
     font-family: Arial, Helvetica, sans-serif;
     color: #092727;
     text-align: left;
@@ -120,7 +161,7 @@ p.foto {
     margin-top: 10px;
     float:left;
 }
-#hd {
+.servicos .hd {
     font-family: Arial, Helvetica, sans-serif;
     color: #092727;
     text-align: left;
@@ -136,10 +177,10 @@ a:hover {
     text-decoration: underline;
     color: rgb(26, 26, 255);
 }
-#rodape{
-    background-color: rgb(230, 213, 199);
+.rodape
+{
     text-align: center;
     font-size: 0,5em;
-    color: rgb(36, 32, 32);
-    margin: 10px;
+    color:red;
+    margin-top: 30px;
 }

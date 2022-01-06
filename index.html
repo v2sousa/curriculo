@@ -10,17 +10,17 @@
     
 </head>
 <body>
-    <nav>
+    <nav class="menu">
         <div class="toggle">
             <i class=" fa fa-bars menu" aria-hidden="true"></i>
         </div>
 
         <ul>
-            <li> <a href="#">Home</a></li>
-            <li> <a href="#">Sobre</a></li>
-            <li> <a href="#">Serviços</a></li>
-            <li> <a href="#">Portifólio</a></li>
-            <li> <a href="#">Contato</a></li>
+            <li> <a href="#">Home</a> </li>
+            <li> <a href="#"> Serviços </a> </li>
+            <li> <a href="#">Portifólio </a> </li>
+            <li> <a href="#"> Sobre </a> </li>
+            <li> <a href="#"> Contato </a> </li>
         </ul>
     </nav>
     <script src="https://code.jquery.com/jquery-3.2.1.js"> </script>
@@ -32,18 +32,112 @@
         })
     </script>
         
-    <main class="index">
-        <menu class="index">
-            <button type="button"><a href="servicos.html" rel="" > Serviços </a></button>
-            <button type="button"> <a href="autor.html" rel="" > Autor </a> </button>
-            <button type="button"><a href="contato.html"> Fale Conosco </a></button>
-        </menu>
-        
-        <h1> Pontual Tech </h1>
-        <p style="text-align: center; font-size: 1.0em; color: red;"> Site em Desenvolvimento </p>
-        <h2> Desenvolvimento Web </h2>        
+    <main class="principal">
+        <div>
+            <h1> Pontual Tech </h1>
+            <h2> Desenvolvimento Web </h2>
+            <p style="text-align: center; font-size: 1.0em; color: red;"> 
+                Site em Desenvolvimento 
+            </p>
+        </div>
+
+        <div class="calendario">
+            <div>
+                <h2 class="dia"> 06, Quinta-Feira </h2>
+                <h3 class="mes"> Janeiro | 2021 </h2>
+            </div>
+            <div class="data">
+                <div class="dia"> D </div>
+                <div class="dia"> S </div>
+                <div class="dia"> T </div>
+                <div class="dia"> Q </div>
+                <div class="dia"> Q </div>
+                <div class="dia"> S </div>
+                <div class="dia"> S </div>
+                <div class="numero"> 1 </div>
+                <div class="numero"> 2 </div>
+                <div class="numero"> 3 </div>
+                <div class="numero"> 4 </div>
+                <div class="numero"> 5 </div>
+                <div class="numero"> 6 </div>
+                <div class="numero"> 7 </div>
+                <div class="numero"> 8 </div>
+                <div class="numero"> 9 </div>
+                <div class="numero"> 10 </div>
+                <div class="numero"> 11 </div>
+                <div class="numero"> 12 </div>
+                <div class="numero"> 13 </div>
+                <div class="numero"> 14 </div>
+                <div class="numero"> 15 </div>
+                <div class="numero"> 16 </div>
+                <div class="numero"> 17 </div>
+                <div class="numero"> 18 </div>
+                <div class="numero"> 19 </div>
+                <div class="numero"> 20 </div>
+                <div class="numero"> 21 </div>
+                <div class="numero"> 22 </div>
+                <div class="numero"> 23 </div>
+                <div class="numero"> 24 </div>
+                <div class="numero"> 25 </div>
+                <div class="numero"> 26 </div>
+                <div class="numero"> 27 </div>
+                <div class="numero"> 28 </div>
+                <div class="numero"> 29 </div>
+                <div class="numero"> 30 </div>                    
+            </div>
+        </div>
+
+        <div class="servicos">
+            <h1> Serviços </h1>
+            <div class="operacionais">
+                <h3>Instalação de Sistemas Operacionais</h3>
+                    <img src="Imagens site/imagem.windows10.jpg" alt="windows10">
+            </div>
+            <div class="formatacao">
+                <h3>Formatação</h3>
+                <img src="Imagens site/imagem.formatacao.jpg" alt="Formatação">
+            </div>
+            <div class="memoria">
+                <h3>Adição de Memória</h3>
+                <img src="Imagens site/imagem.memoria2.jpg" alt="memoria">
+            </div>
+            <div class="hd">
+                <h3>Troca de HD</h3>
+                <img src="Imagens site/imagem.hd3.jpg" alt="HD">
+            </div>
+        </div>
+
+        <div class="portifolio">
+        #
+        </div>
+
+        <div class="sobre">
+                <h1> Vagner dos Santos </h1>
+                <p class="foto">
+                    <img src="Imagens site/minhafotosite2.jpg" alt="foto site">
+                </p>
+                <br>
+                <p class="sobre">
+                    Desenvolvedor Web, formado pela Universidade Cruzeiro do Sul / Unicid (Universidade Cidade de São Paulo).
+                    Cursou Técnologia em Análise e Desenvolvimento de Software, conclusão em Junho de 2021. <br><br>
+                    Atualmente está se especializando em <abbr title="HyperText Markup Language, versão 5"> HTML-5 </abbr>, <abbr title="Cascading Style Sheets, versão 3"> CSS-3, </abbr> JavaScript e demais framewoks ligados ao desenvolvimento Web. <br> <br>
+                    Aos 40 Anos, residente na cidade de Jandira em São Paulo, Casado e pai de 2 Filhas, dedica boa parte de seu tempo ao estudo de Técnologia da Informação e Java, uma das principais linguaguens de programação para desenvolvimento de sistemas computacionais para diferentes necessidades e soluções. <br> <br>
+                </p>
+        </div>
+        <div class="contato">
+            <h1> Contato </h1>
+        <div class="dadosContato">
+            <p>Quero falar com Voçê:</p>
+            <form name="formcontato" method="get" action="">
+                Nome: <input type="text" name="nome" autofocus placeholder=" Digite nome completo."> <br><br>
+                E-mail: <input type="email" name="usermail" autofocus placeholder=" Digite aqui seu e-mail." > <br><br>
+                <textarea name="txtArea" id="txtArea" cols="100" rows="5" autofocus placeholder="Escreva-nos uma mensagem, um elogio ou uma critica."> </textarea>
+
+                <input name="btnEnviar" type="button" value="Enviar" autofocus="autofocus" onclick="alert('Enviado com Sucesso... Agradecemos o contato!')"> <br>
+            </form>
+        </div>
         <hr>
-        <div id="rodape">
+        <div class="rodape">
             &copy; Vagner dos Santos - 2021 - Todos os direitos Reservados <br>
             Jandira - SP <br> 
             Contato: 11 99286-6696 <br> 
