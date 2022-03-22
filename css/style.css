@@ -36,8 +36,9 @@
 a:hover i {
     background: #888;
 }
-a {
+a { /*PORTFOLIO*/
     text-decoration: none;
+    list-style-type: none;/*RETIRA OS PONTOS DOS TOPICOS NAS LISTAS (LI)*/
 }
 .rodape{
     margin-top: 10px;
