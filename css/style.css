@@ -1,0 +1,70 @@
+/* Estilos Gerais */
+* {
+    color: #25282e /* Cor principal do projeto (Classe Primaria) */
+}
+a, i { /* Ancoras e icones */
+    transition: .5s; /* tempo de transição do hover */
+    text-decoration: none; /* Tira o Sublinhado da fonte */
+}
+.secondary-color { /* Classe Secundaria (Classe de Apoio) */
+    color: #555;
+}
+.center-image{ /* Classe que vai ajudar a centralizar as imgens */
+    background-size: cover; /* imagem adaptada o máximo possível da Div*/
+    background-position: center; /* imagem centralizada */
+}
+.btn{ /* Classe padronização do botão*/
+    text-decoration: none; /* Tira o sublinhado do texto */
+    background-color: #25282e; /* Cor de fundo do botão*/
+    color: #fff; /* Cor do texto */
+    padding: 7px 18px; /* Espaçamento interno entre o texto e as bordas btn */
+    border-radius: 0; /* Tira a borda arredondada original do bootstrap */
+    border: 1px solid #ccc;
+}
+.btn:hover { /* Cria uma animação no btn, mudando de cor */
+    background-color: #555; /* Cor do hover */
+    color: #fff; /* deve ser reescrito p/ não sobrescrever outra cor */
+}
+/* header */
+#header {
+    text-align: center; /* Centraliza o Texto */
+    padding: 20px; /*Espaçamento interno entre o texto e as bordas*/
+    border-bottom: 1px solid #ccc; /*Espaçamento texto c/ borda inferior */
+}
+#header p { 
+    margin-bottom: 0; /*tira margem do paragrafo, devido ao padrão boot atrapalhar*/
+}
+#logo-container {
+    display: flex; /* Para que o logo  fique ao lado do h1 */
+    justify-content: center; /* Para centralizar o texto com a imagem */
+}
+#logo {
+    width: 40px; /* Define a altura do logo */
+    margin-right: 15px; /* Define Margem entre o logo e o titulo */
+}
+#navbar {
+    padding: 10px;
+    margin: 10px auto; /* faz c/ q/ o icones fiquem espaçados e centralizados */
+}
+#navbar a{
+    width: 80px;
+    color: #444;
+    text-decoration: none;
+}
+#navbar a:hover{
+    color: #c1b696; 
+}
+/* MAIN IMAGE*/
+.main-image{
+    height: 400px; /*ALtura da imagem*/
+    background-image: url(../imagens/art.1.jfif); /*Banner Principal*/
+    margin-bottom: 30px; /*Margem inferior*/
+    position: relative; /*A posição do banner tem que ser relativa*/
+}
+.main-image-info {
+    background-color: #fff; /*Cor de fundo da div*/
+    padding: 25px; /*Espaçamento interno da div*/
+    position: absolute; /*Posição precisa ser absoluta, p/ fixar sobre banner*/
+    left: 25px;
+    bottom: 25px;
+}
