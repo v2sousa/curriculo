@@ -19,12 +19,11 @@
     display: flex; /* Para que o logo  fique ao lado do h1 */
     justify-content: center; /* Para centralizar o texto com a imagem */
 }
-.info-perfil h2{
+.info-perfil .portfolio h2{
     font-weight: 100;
 }
 .info-perfil p{
     margin-top: 20px;
-    font-size: 1.3em;
     text-align: justify;
 }
 #sociais{
@@ -34,8 +33,11 @@
     margin-left: 30px;
     color: #fff;
 }
-i:hover {
+a:hover i {
     background: #888;
+}
+a {
+    text-decoration: none;
 }
 .rodape{
     margin-top: 10px;
