@@ -29,9 +29,10 @@
 #sociais{
     margin-top: 05px;
     font-size: 30px;
-    align-items: center;
-    margin-left: 30px;
+    margin-right: 50px
     color: #fff;
+    position: relative;
+    text-align: right;
 }
 a:hover i {
     background: #888;
