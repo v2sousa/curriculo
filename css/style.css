@@ -1,18 +1,18 @@
 
 .container-fluid {
-    background-color: #0e1d2f;
+    background-color: #F2F6F8;
     width: 95%;
-    border-radius: 50px;
-    box-shadow: 6px 6px 6px #0e1d2f;
-    padding: 64px;
+    border-radius: 10px;
+    box-shadow: 6px 6px 10px #0e1d2f;
+    padding: 50px;
     margin-right: 30px;
-    color: #fff;
+    color: #0e1d2f;
 }
 #img-perfil{
     height: 300px;
     width: 300px;
     border-radius: 360px;
-    box-shadow: 6px 6px 6px #fff;
+    box-shadow: 6px 6px 8px #0e1d2f;
     position: relative;
 }
 #img-perfil{
@@ -34,9 +34,11 @@
     position: relative;
     text-align: right;
 }
-a:hover i {
-    background: #888;
-}
+/* Selects any <a> element when "hovered" */
+a:hover {
+    color: #888;
+  }
+  
 a { /*PORTFOLIO*/
     text-decoration: none;
     list-style-type: none;/*RETIRA OS PONTOS DOS TOPICOS NAS LISTAS (LI)*/
