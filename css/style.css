@@ -8,7 +8,13 @@
     margin-right: 30px;
     color: #0e1d2f;
 }
+.navbar {
+    box-shadow: 6px 6px 8px #293d5644;
+    border-radius: 5px 5px 5px;
+    position: relative;
+}
 #img-perfil{
+    margin-top: 20px;
     height: 200px;
     width: 200px;
     border-radius: 360px;
@@ -44,6 +50,11 @@ a { /*PORTFOLIO*/
     list-style-type: none;/*RETIRA OS PONTOS DOS TOPICOS NAS LISTAS (LI)*/
 }
 .rodape{
-    margin-top: 10px;
+    margin-top: 40px;
     text-align: center;
+    background-color: #e0e0e0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    box-shadow: 6px 6px 8px #293d5644;
+    border-radius: 5px 5px 5px;
+    position: relative;
 }
